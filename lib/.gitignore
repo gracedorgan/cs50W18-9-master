@@ -1,0 +1,16 @@
+# Make sure you install the CS50 recommended .gitignore_global file:
+#  cp ~cs50/.gitignore_global ~
+#  git config --global core.excludesfile ~/.gitignore_global
+
+# Then tell git to ignore files specific to this project.
+# You can list them all here, or you can  add a .gitignore file
+# in each subdirectory.
+
+# What follows affect this top-level directory and all subdirectories.
+
+# files created by and for emacs
+TAGS
+
+# Do NOT push data files to git.
+# I suggest you create crawler/indexer output in subdirectories of ./data
+data
